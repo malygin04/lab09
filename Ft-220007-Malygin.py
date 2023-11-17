@@ -24,7 +24,7 @@ def draw_barrel(n):
     barrel_sequence = list(range(1, n+1))
     random.shuffle(barrel_sequence)
     for barrel in barrel_sequence:
-        yield barrel  # Возвращает текущее значение бочки
+        yield barrel  # Возвращаем текущий номер бочки
         keyboard.wait('Enter')  # Ждем нажатия клавиши Enter
 
 
